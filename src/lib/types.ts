@@ -1,5 +1,5 @@
 export type TeeColor = "white" | "black" | "grey" | "navy" | "olive" | "sand" | "yellow";
-export type TeeSize = "XS" | "S" | "M" | "L" | "XL" | "XXL";
+export type TeeSize = "S" | "M" | "L" | "XL" | "XXL";
 export type TeeNeck = "v-neck" | "o-neck";
 
 export interface ProductVariant {

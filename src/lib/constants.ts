@@ -1,6 +1,6 @@
 import type { TeeColor, TeeNeck, TeeSize } from "./types";
 
-export const AVAILABLE_SIZES: TeeSize[] = ["XS", "S", "M", "L", "XL", "XXL"];
+export const AVAILABLE_SIZES: TeeSize[] = ["S", "M", "L", "XL", "XXL"];
 export const AVAILABLE_COLORS: TeeColor[] = [
     "white",
     "black",
