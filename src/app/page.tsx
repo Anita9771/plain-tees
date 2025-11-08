@@ -1,3 +1,5 @@
+import { Suspense } from "react";
+
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
@@ -11,7 +13,15 @@ export default function HomePage() {
       <Header />
       <Hero />
       <section id="shop" className="container mx-auto px-4 py-20">
-        <TeeCustomizer product={product} />
+        <Suspense
+          fallback={
+            <div className="flex min-h-[320px] items-center justify-center text-subtext">
+              Loading customizer…
+            </div>
+          }
+        >
+          <TeeCustomizer product={product} />
+        </Suspense>
       </section>
       <section
         id="quality"

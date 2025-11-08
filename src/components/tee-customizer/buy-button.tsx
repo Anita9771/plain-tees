@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Link from "next/link";
 
 import type { TeeColor, TeeNeck, TeeSize } from "@/lib/types";
 import { formatNeck } from "@/lib/whatsapp";
@@ -30,7 +29,7 @@ export default function BuyButton({
   const label = compact ? "Buy on WhatsApp" : "Buy instantly on WhatsApp";
   return (
     <motion.div whileHover={!disabled ? { y: -2 } : undefined} transition={spring}>
-      <Link
+      <a
         href={href}
         target="_blank"
         rel="noreferrer"
@@ -44,7 +43,7 @@ export default function BuyButton({
         <span className="text-xs uppercase tracking-[0.3em] text-[#064C3A]">
           {qty} × {selectedSize} / {capitalize(selectedColor)} / {formatNeck(selectedNeck)}
         </span>
-      </Link>
+      </a>
     </motion.div>
   );
 }

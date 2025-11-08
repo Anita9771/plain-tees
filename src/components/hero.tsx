@@ -52,7 +52,7 @@ export default function Hero() {
             className="relative isolate flex items-center justify-center"
           >
             <Image
-              src="/models/base.svg"
+              src="/models/plaintee.png"
               alt="Minimalist tee silhouette"
               width={640}
               height={640}
