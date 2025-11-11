@@ -294,8 +294,8 @@ function resolveVariant(
   return {
     color,
     size,
-    imageSrc: `/renders/${color}-m.svg`,
-    alt: `Model wearing a ${color} plain tee in size ${size} with a ${formatNeck(neck)}`,
+    imageSrc: `/renders/${color}.png`,
+    alt: `A ${capitalize(color)} plain tee in size ${size} with a ${formatNeck(neck)}`,
     neck,
   } satisfies ProductVariant;
 }
