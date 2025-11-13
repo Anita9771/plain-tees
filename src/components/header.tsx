@@ -8,7 +8,7 @@ const spring = { type: "spring", stiffness: 120, damping: 18 } as const;
 const headerLinks = [
   { href: "#shop", label: "Shop" },
   { href: "#quality", label: "Quality" },
-  { href: "https://wa.me/2345678909876", label: "WhatsApp", external: true },
+  { href: "https://wa.me/2348103509951", label: "WhatsApp", external: true },
 ];
 
 export default function Header() {

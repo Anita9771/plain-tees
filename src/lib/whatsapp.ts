@@ -8,7 +8,7 @@ interface WhatsAppLinkParams {
     note?: string;
 }
 
-const phone = "2345678909876"; // without leading plus
+const phone = "2348103509951"; // without leading plus
 
 const capitalize = (value: string) => value.charAt(0).toUpperCase() + value.slice(1);
 

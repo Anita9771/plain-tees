@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const WHATSAPP_LINK = "https://wa.me/2345678909876";
+const WHATSAPP_LINK = "https://wa.me/2348103509951";
 
 export default function Footer() {
   const year = new Date().getFullYear();
